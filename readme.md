@@ -41,7 +41,7 @@ Boolean Recipe Matcher is a FastAPI application that allows users to search for 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/Boolean-Recipe-Match.git
+    git clone https://github.com/skfrost19/Boolean-Recipe-Match.git
     cd Boolean-Recipe-Match
     ```
 
