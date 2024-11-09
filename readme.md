@@ -9,6 +9,7 @@ Boolean Recipe Matcher is a FastAPI application that allows users to search for 
 - Responsive and interactive UI with tooltips for recipe details.
 
 ## Project Structure
+```
 .
 ├── app
 │   ├── main.py
@@ -34,7 +35,7 @@ Boolean Recipe Matcher is a FastAPI application that allows users to search for 
     ├── build_recipe.py
     ├── __init__.py
     └── utils.py
-
+```
 
 ## Installation
 
