@@ -30,8 +30,8 @@ async def match_recipes(request: Request):
     print(parsed_data)
 
     matched_recipes = match_recipe(
-        parsed_data["ingredients"],
-        parsed_data["operator"],
+        parsed_data.get("ingredients", []),
+        parsed_data.get("operator", []),
         5,
         conn,
         c,
